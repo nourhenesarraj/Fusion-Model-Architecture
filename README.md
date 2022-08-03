@@ -116,3 +116,7 @@ $ python onnx_inference.py --FDZ original --model-path ../pretrained/best_checkp
 ```bash
 !python demo_video.py --FDZ blackout_r --model_path ../pretrained/best_checkpoint.pth.tar --vis
 ```
+
+Note: 
+FDZ arg could be : - original (for fusion) or blackout_r (blackout for Visible image) or blackout_t (Blackout for Thermal image) 
+                  
