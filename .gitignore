@@ -5,9 +5,8 @@ result
 src/best_checkpoint.pth.tar
 src/__pycache__
 src/utils/__pycache__
-evaluation_script/__pycache__
-data/kaist-rgbt
+data/ARCNNDataset
 pretrained/*
-evaluation_script/tt.sh
+
 
 
