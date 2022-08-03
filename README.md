@@ -119,4 +119,4 @@ $ python onnx_inference.py --FDZ original --model-path ../pretrained/best_checkp
 
 Note: 
 FDZ arg could be : - original (for fusion) or blackout_r (blackout for Visible image) or blackout_t (Blackout for Thermal image) 
-                  
+
