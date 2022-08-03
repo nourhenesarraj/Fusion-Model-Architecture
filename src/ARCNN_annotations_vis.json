@@ -1,0 +1,350 @@
+{
+    "info": {
+        "dataset": "KAIST Multispectral Pedestrian Benchmark",
+        "url": "https://soonminhwang.github.io/rgbt-ped-detection/",
+        "related_project_url": "http://multispectral.kaist.ac.kr",
+        "publish": "CVPR 2015"
+    },
+    "info_improved": {
+        "sanitized_annotation": {
+            "publish": "BMVC 2018",
+            "url": "https://li-chengyang.github.io/home/MSDS-RCNN/",
+            "target": "files in train-all-02.txt (set00-set05)"
+        },
+        "improved_annotation": {
+            "url": "https://github.com/denny1108/multispectral-pedestrian-py-faster-rcnn",
+            "publish": "BMVC 2016",
+            "target": "files in test-all-20.txt (set06-set11)"
+        }
+    },
+    "images": [
+          {
+            "id": 0,
+            "im_name": "set00/V000/frame99",
+            "height": 720,
+            "width": 1280
+        },
+        {
+            "id": 1,
+            "im_name": "set00/V000/frame990",
+            "height": 720,
+            "width": 1280
+        },
+        {
+            "id": 2,
+            "im_name": "set00/V000/frame991",
+            "height": 720,
+            "width": 1280
+        },
+        {
+            "id": 3,
+            "im_name": "set00/V000/frame992",
+            "height": 720,
+            "width": 1280
+        },
+        {
+            "id": 4,
+            "im_name": "set00/V000/frame993",
+            "height": 720,
+            "width": 1280
+        },
+        {
+            "id": 5,
+            "im_name": "set00/V000/frame994",
+            "height": 720,
+            "width": 1280
+        },
+        {
+            "id": 6,
+            "im_name": "set00/V000/frame995",
+            "height": 720,
+            "width": 1280
+        },
+        {
+            "id": 7,
+            "im_name": "set00/V000/frame996",
+            "height": 720,
+            "width": 1280
+        },
+        {
+            "id": 8,
+            "im_name": "set00/V000/frame997",
+            "height": 720,
+            "width": 1280
+        },
+        {
+            "id": 9,
+            "im_name": "set00/V000/frame998",
+            "height": 720,
+            "width": 1280
+        },
+        {
+            "id": 10,
+            "im_name": "set00/V000/frame999",
+            "height": 720,
+            "width": 1280
+        }
+    ],
+    "annotations": [
+        {
+            "id": 0,
+            "image_id": 0,
+            "category_id": 1,
+            "bbox": [
+                1027,
+                226,
+                87,
+                202
+            ],
+            "height": 50,
+            "occlusion": 0,
+            "ignore": 0
+        },
+        {
+            "id": 1,
+            "image_id": 1,
+            "category_id": 1,
+            "bbox": [
+                705,
+                172,
+                65,
+                99
+            ],
+            "height": 50,
+            "occlusion": 0,
+            "ignore": 0
+        },
+        {
+            "id": 2,
+            "image_id": 2,
+            "category_id": 1,
+            "bbox": [
+                441,
+                330,
+                84,
+                154
+            ],
+            "height": 60,
+            "occlusion": 0,
+            "ignore": 0
+        },
+        {
+            "id": 3,
+            "image_id": 2,
+            "category_id": 1,
+            "bbox": [
+                626,
+                334,
+                46,
+                182
+            ],
+            "height": 35,
+            "occlusion": 0,
+            "ignore": 0
+        },
+        {
+            "id": 4,
+            "image_id": 3,
+            "category_id": 1,
+            "bbox": [
+                624,
+                157,
+                147,
+                449
+            ],
+            "height": 36,
+            "occlusion": 0,
+            "ignore": 0
+        },
+        {
+            "id": 5,
+            "image_id": 3,
+            "category_id": 1,
+            "bbox": [
+                  785,
+                  155,
+                  141,
+                  305
+              ],
+            "height": 51,
+            "occlusion": 0,
+            "ignore": 0
+        },
+        {
+            "id": 6,
+            "image_id": 4,
+            "category_id": 1,
+            "bbox": [
+                716,
+                173,
+                58,
+                81
+            ],
+            "height": 51,
+            "occlusion": 0,
+            "ignore": 0
+        },
+        {
+            "id": 7,
+            "image_id": 5,
+            "category_id": 1,
+            "bbox": [
+                628,
+                337,
+                66,
+                155
+            ],
+            "height": 41,
+            "occlusion": 0,
+            "ignore": 0
+        },
+        {
+            "id": 8,
+            "image_id": 5,
+            "category_id": 1,
+            "bbox": [
+                460,
+                346,
+                64,
+                146
+            ],
+            "height": 34,
+            "occlusion": 0,
+            "ignore": 0
+        },
+        {
+            "id": 9,
+            "image_id": 6,
+            "category_id": 1,
+            "bbox": [
+                602,
+                173,
+                137,
+                448
+            ],
+            "height": 48,
+            "occlusion": 0,
+            "ignore": 0
+        },
+        {
+            "id": 10,
+            "image_id": 6,
+            "category_id": 1,
+            "bbox": [
+                756,
+                167,
+                155,
+                477
+            ],
+            "height": 51,
+            "occlusion": 0,
+            "ignore": 0
+        },
+        {
+            "id": 11,
+            "image_id": 7,
+            "category_id": 1,
+            "bbox": [
+                730,
+                185,
+                52,
+                86
+            ],
+            "height": 40,
+            "occlusion": 0,
+            "ignore": 0
+        },
+        {
+            "id": 12,
+            "image_id": 8,
+            "category_id": 1,
+            "bbox": [
+                437,
+                335,
+                87,
+                160
+            ],
+            "height": 42,
+            "occlusion": 0,
+            "ignore": 0
+        },
+        {
+            "id": 13,
+            "image_id": 8,
+            "category_id": 1,
+            "bbox": [
+                629,
+                327,
+                64,
+                160
+            ],
+            "height": 33,
+            "occlusion": 0,
+            "ignore": 0
+        },
+        {
+            "id": 14,
+            "image_id": 9,
+            "category_id": 1,
+            "bbox": [
+                584,
+                191,
+                129,
+                440
+            ],
+            "height": 59,
+            "occlusion": 0,
+            "ignore": 0
+        },
+        {
+            "id": 15,
+            "image_id": 9,
+            "category_id": 1,
+            "bbox": [
+                732,
+                183,
+                122,
+                425
+            ],
+            "height": 50,
+            "occlusion": 0,
+            "ignore": 0
+        },
+        {
+             "id": 16,
+            "image_id": 10,
+            "category_id": 1,
+            "bbox": [
+                745,
+                173,
+                48,
+                73
+            ],
+            "height": 42,
+            "occlusion": 0,
+            "ignore": 0
+        }   
+    ],
+    "categories": [
+        {
+            "id": 0,
+            "name": "__ignore__"
+        },
+        {
+            "id": 1,
+            "name": "person"
+        },
+        {
+            "id": 2,
+            "name": "cyclist"
+        },
+        {
+            "id": 3,
+            "name": "people"
+        },
+        {
+            "id": 4,
+            "name": "person?"
+        }
+    ]
+}
