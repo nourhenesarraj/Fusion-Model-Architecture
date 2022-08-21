@@ -14,7 +14,7 @@ Multispectral pedestrian detection
 
 ### Git Clone 
 ```
-git clone hhttps://github.com/nourhenesarraj/Fusion-Model-Architecture.git
+git clone https://github.com/nourhenesarraj/Fusion-Model-Architecture.git
 ```
 ```
 cd Fusion-Model-Architecture
